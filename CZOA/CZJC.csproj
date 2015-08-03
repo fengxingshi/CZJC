@@ -62,26 +62,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ctrl\AttaCtrl.cs" />
     <Compile Include="Ctrl\CtrlFactory.cs" />
-    <Compile Include="Ctrl\FileType.cs" />
-    <Compile Include="Ctrl\DoAction.cs" />
-    <Compile Include="Ctrl\EntityCtrl.cs" />
-    <Compile Include="Ctrl\DeptCtrl.cs" />
-    <Compile Include="Ctrl\RulesFileCtrl.cs" />
-    <Compile Include="Ctrl\FlowCtrl.cs" />
-    <Compile Include="Ctrl\FormCtrl.cs" />
-    <Compile Include="Ctrl\ModelCtrl.cs" />
-    <Compile Include="Ctrl\NodeCtrl.cs" />
-    <Compile Include="Ctrl\OrgCtrl.cs" />
-    <Compile Include="Ctrl\RoleCtrl.cs" />
-    <Compile Include="Ctrl\StageCtrl.cs" />
-    <Compile Include="Ctrl\StepCtrl.cs" />
-    <Compile Include="Ctrl\StepEditAuth.cs" />
-    <Compile Include="Ctrl\TagCtrl.cs" />
-    <Compile Include="Ctrl\TestCtrl.cs" />
-    <Compile Include="Ctrl\UserCtrl.cs" />
-    <Compile Include="Ctrl\WorkCtrl.cs" />
     <Compile Include="DB\Config.cs" />
     <Compile Include="DB\Mapping.cs" />
     <Compile Include="DB\OAContext.cs" />
