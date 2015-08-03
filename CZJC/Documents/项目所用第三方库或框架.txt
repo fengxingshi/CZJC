@@ -1,0 +1,9 @@
+﻿客户端：
+	1.jQuery		基础
+	2.Bootstrap		布局
+	3.Chart.js		图表
+	4.Knockout.js	MVVM绑定
+
+服务端：
+	1.ASP.NET		
+	2.EF5			实体框架
