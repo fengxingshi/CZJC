@@ -1,6 +1,6 @@
 using System;
 
-namespace CZOA.WebAPI.Areas.HelpPage
+namespace CZJC.WebAPI.Areas.HelpPage
 {
     /// <summary>
     /// This represents an invalid sample on the help page. There's a display template named InvalidSample associated with this class.

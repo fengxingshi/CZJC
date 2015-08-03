@@ -65,7 +65,7 @@
     <Compile Include="Ctrl\CtrlFactory.cs" />
     <Compile Include="DB\Config.cs" />
     <Compile Include="DB\Mapping.cs" />
-    <Compile Include="DB\OAContext.cs" />
+    <Compile Include="DB\JCContext.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

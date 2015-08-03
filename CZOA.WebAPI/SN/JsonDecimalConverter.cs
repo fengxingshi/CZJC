@@ -1,7 +1,7 @@
 ﻿using System;
 using Newtonsoft.Json;
 
-namespace CZOA.WebAPI
+namespace CZJC.WebAPI
 {
     /// <summary>
     /// json中decimal类型的转换器，主要为去掉json中decimal带的.0后缀

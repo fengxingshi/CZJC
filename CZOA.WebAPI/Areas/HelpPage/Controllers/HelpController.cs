@@ -1,10 +1,10 @@
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
-using CZOA.WebAPI.Areas.HelpPage.ModelDescriptions;
-using CZOA.WebAPI.Areas.HelpPage.Models;
+using CZJC.WebAPI.Areas.HelpPage.ModelDescriptions;
+using CZJC.WebAPI.Areas.HelpPage.Models;
 
-namespace CZOA.WebAPI.Areas.HelpPage.Controllers
+namespace CZJC.WebAPI.Areas.HelpPage.Controllers
 {
     /// <summary>
     /// The controller that will handle requests for the help page.

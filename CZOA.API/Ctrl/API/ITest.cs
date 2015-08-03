@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using CZOA.DB;
+using CZJC.DB;
 
-namespace CZOA.Ctrl.API
+namespace CZJC.Ctrl.API
 {
     public interface ITestCtrl
     {

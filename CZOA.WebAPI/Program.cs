@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CZOA.WebAPI
+namespace CZJC.WebAPI
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace CZOA.WebAPI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CZOA.WebAPI.OWIN.MainForm());
+            Application.Run(new CZJC.WebAPI.OWIN.MainForm());
         }
     }
 }

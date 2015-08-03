@@ -4,17 +4,17 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using CZOA.Ctrl.API;
-using CZOA.DB;
-using CtrlFactory = CZOA.Ctrl.CtrlFactory;
+using CZJC.Ctrl.API;
+using CZJC.DB;
+using CtrlFactory = CZJC.Ctrl.CtrlFactory;
 
-namespace CZOA.WebAPI.Controllers
+namespace CZJC.WebAPI.Controllers
 {
 	[RoutePrefix("api/model")] //设置默认前缀
 	public class ModelController : SNApiController
 	{
-		private CZOA.Ctrl.API.IModelCtrl _ctrl;
-		private CZOA.Ctrl.API.IFormCtrl _form;
+		private CZJC.Ctrl.API.IModelCtrl _ctrl;
+		private CZJC.Ctrl.API.IFormCtrl _form;
 		public ModelController()
 		{
 			_ctrl = GetCtrl<IModelCtrl>("ModelCtrl");

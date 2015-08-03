@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CZOA
+namespace CZJC
 {
     public class SNSession
     {

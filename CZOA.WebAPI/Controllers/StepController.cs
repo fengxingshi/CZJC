@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
-using CZOA.Ctrl.API;
-using CZOA.DB;
-using CZOA.Tag;
-using CZOA._路由表;
+using CZJC.Ctrl.API;
+using CZJC.DB;
+using CZJC.Tag;
+using CZJC._路由表;
 
-namespace CZOA.WebAPI.Controllers
+namespace CZJC.WebAPI.Controllers
 {
     [RoutePrefix("api/step")]
     public class StepController : SNApiController

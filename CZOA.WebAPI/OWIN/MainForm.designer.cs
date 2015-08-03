@@ -1,4 +1,4 @@
-﻿namespace CZOA.WebAPI.OWIN
+﻿namespace CZJC.WebAPI.OWIN
 {
     partial class MainForm
     {

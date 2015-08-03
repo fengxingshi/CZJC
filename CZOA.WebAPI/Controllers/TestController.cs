@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Web.Http;
-using CZOA.Ctrl.API;
-using CZOA.DB;
-using CtrlFactory = CZOA.Ctrl.CtrlFactory;
+using CZJC.Ctrl.API;
+using CZJC.DB;
+using CtrlFactory = CZJC.Ctrl.CtrlFactory;
 
-namespace CZOA.WebAPI.Controllers
+namespace CZJC.WebAPI.Controllers
 {
     [RoutePrefix(_路由表.Test._Prefix)] //设置默认前缀
     public class TestController : SNApiController

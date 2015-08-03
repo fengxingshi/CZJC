@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CZOA.Properties
+namespace CZJC.Properties
 {
 
 

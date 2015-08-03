@@ -1,4 +1,4 @@
-﻿namespace CZOA.Msg
+﻿namespace CZJC.Msg
 {
     public struct WorkMsg
     {

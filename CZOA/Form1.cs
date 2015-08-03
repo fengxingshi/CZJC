@@ -8,10 +8,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using CZOA.DB;
-using CZOA.Ctrl;
+using CZJC.DB;
+using CZJC.Ctrl;
 
-namespace CZOA
+namespace CZJC
 {
     public partial class Form1 : Form
     {
@@ -55,7 +55,7 @@ namespace CZOA
 
             //Test_BeginWork();
 
-            using (var ctx = new OAContext())
+            using (var ctx = new JCContext())
             {
                 var re = ctx.TEST.Where(p => p.ID > 0);
                 var r = re.ToList();

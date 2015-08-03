@@ -57,23 +57,12 @@
     <Compile Include="Common\LogManager.cs" />
     <Compile Include="Msg\MsgTag.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Route\RouteTable.cs" />
     <Compile Include="SN\SNDatetime.cs" />
     <Compile Include="SN\SNExtensions.cs" />
     <Compile Include="SN\SNFile.cs" />
     <Compile Include="SN\SNHelper.cs" />
     <Compile Include="SN\SNHttpExtensions.cs" />
     <Compile Include="SN\SNSession.cs" />
-    <Compile Include="Tag\DeptTag.cs" />
-    <Compile Include="Tag\EntityTag.cs" />
-    <Compile Include="Tag\FileTag.cs" />
-    <Compile Include="Tag\FlowTag.cs" />
-    <Compile Include="Tag\ModelTag.cs" />
-    <Compile Include="Tag\NodeTag.cs" />
-    <Compile Include="Tag\OrgTag.cs" />
-    <Compile Include="Tag\StepTag.cs" />
-    <Compile Include="Tag\UserTag.cs" />
-    <Compile Include="Tag\WorkTag.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

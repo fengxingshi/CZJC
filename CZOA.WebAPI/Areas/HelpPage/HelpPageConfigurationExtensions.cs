@@ -11,10 +11,10 @@ using System.Net.Http.Headers;
 using System.Web.Http;
 using System.Web.Http.Controllers;
 using System.Web.Http.Description;
-using CZOA.WebAPI.Areas.HelpPage.ModelDescriptions;
-using CZOA.WebAPI.Areas.HelpPage.Models;
+using CZJC.WebAPI.Areas.HelpPage.ModelDescriptions;
+using CZJC.WebAPI.Areas.HelpPage.Models;
 
-namespace CZOA.WebAPI.Areas.HelpPage
+namespace CZJC.WebAPI.Areas.HelpPage
 {
     public static class HelpPageConfigurationExtensions
     {

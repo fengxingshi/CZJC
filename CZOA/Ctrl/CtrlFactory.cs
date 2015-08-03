@@ -1,6 +1,6 @@
-﻿using CZOA.Ctrl.API;
+﻿using CZJC.Ctrl.API;
 
-namespace CZOA.Ctrl
+namespace CZJC.Ctrl
 {
     /// <summary>
     ///     控制器工厂

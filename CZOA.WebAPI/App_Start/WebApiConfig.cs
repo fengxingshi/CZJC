@@ -5,7 +5,7 @@ using System.Net.Http.Formatting;
 using System.Web.Http;
 using Newtonsoft.Json;
 
-namespace CZOA.WebAPI
+namespace CZJC.WebAPI
 {
     public static class WebApiConfig
     {

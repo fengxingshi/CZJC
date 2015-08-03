@@ -1,4 +1,4 @@
-﻿namespace CZOA
+﻿namespace CZJC
 {
     partial class Form1
     {

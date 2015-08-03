@@ -6,7 +6,7 @@ using System.Net.Http.Formatting;
 using System.Text.RegularExpressions;
 using Newtonsoft.Json;
 
-namespace CZOA
+namespace CZJC
 {
     public static class SNHttpExtensions
     {

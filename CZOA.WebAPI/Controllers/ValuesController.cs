@@ -6,7 +6,7 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
 
-namespace CZOA.WebAPI.Controllers
+namespace CZJC.WebAPI.Controllers
 {
     [ApiExplorerSettings(IgnoreApi = true)]
     public class ValuesController : SNApiController

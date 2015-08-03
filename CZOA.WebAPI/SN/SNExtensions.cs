@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Web.Http;
 
-namespace CZOA.WebAPI
+namespace CZJC.WebAPI
 {
     /// <summary>
     /// ApiController的扩展，增加了SESSION

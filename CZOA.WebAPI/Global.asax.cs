@@ -7,7 +7,7 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 
-namespace CZOA.WebAPI
+namespace CZJC.WebAPI
 {
     /// <summary>
     /// 启动器

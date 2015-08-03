@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace CZOA.WebAPI
+namespace CZJC.WebAPI
 {
     public class FilterConfig
     {

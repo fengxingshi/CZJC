@@ -1,7 +1,7 @@
 ﻿using System;
 using SN.Utility;
 
-namespace CZOA
+namespace CZJC
 {
     public static class SNExtensions
     {

@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CZOA.WebAPI.OWIN
+namespace CZJC.WebAPI.OWIN
 {
     public partial class Setting : Form
     {

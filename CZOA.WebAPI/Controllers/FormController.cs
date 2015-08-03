@@ -4,15 +4,15 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using CZOA.Ctrl.API;
-using CZOA.DB;
+using CZJC.Ctrl.API;
+using CZJC.DB;
 
-namespace CZOA.WebAPI.Controllers
+namespace CZJC.WebAPI.Controllers
 {
 	[RoutePrefix("api/form")] //设置默认前缀
 	public class FormController : SNApiController
 	{
-		private CZOA.Ctrl.API.IFormCtrl _ctrl;
+		private CZJC.Ctrl.API.IFormCtrl _ctrl;
 		public FormController()
 		{
 			_ctrl = GetCtrl<IFormCtrl>("FormCtrl");

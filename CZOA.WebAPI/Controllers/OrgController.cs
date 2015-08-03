@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Web.Http;
-using CZOA.Ctrl.API;
-using CZOA.DB;
-using CtrlFactory = CZOA.Ctrl.CtrlFactory;
+using CZJC.Ctrl.API;
+using CZJC.DB;
+using CtrlFactory = CZJC.Ctrl.CtrlFactory;
 
-namespace CZOA.WebAPI.Controllers
+namespace CZJC.WebAPI.Controllers
 {
     [RoutePrefix("api/org")]
     public class OrgController : SNApiController

@@ -5,7 +5,7 @@
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity.ModelConfiguration;
 
-namespace CZOA.DB.Mapping
+namespace CZJC.DB.Mapping
 {
     public class M_TEST : EntityTypeConfiguration<TEST>
     {

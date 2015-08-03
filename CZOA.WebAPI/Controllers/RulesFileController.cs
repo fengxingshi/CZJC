@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using System.Data;
 using System.Web.Http;
-using CZOA.Ctrl.API;
-using CZOA.DB;
+using CZJC.Ctrl.API;
+using CZJC.DB;
 
-namespace CZOA.WebAPI.Controllers
+namespace CZJC.WebAPI.Controllers
 {
     /// <summary>
     /// 提供文件类型的相关服务

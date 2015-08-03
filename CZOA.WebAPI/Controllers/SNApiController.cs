@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Web.Http;
-using CZOA.Ctrl;
+using CZJC.Ctrl;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace CZOA.WebAPI.Controllers
+namespace CZJC.WebAPI.Controllers
 {
 	public class SNApiController : ApiController
 	{

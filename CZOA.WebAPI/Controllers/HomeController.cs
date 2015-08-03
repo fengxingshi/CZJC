@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Http.Description;
 using System.Web.Mvc;
 
-namespace CZOA.WebAPI.Controllers
+namespace CZJC.WebAPI.Controllers
 {
     [ApiExplorerSettings(IgnoreApi = true)]
     public class HomeController : Controller

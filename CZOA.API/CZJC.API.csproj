@@ -45,23 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Ctrl\API\CtrlFactory.cs" />
-    <Compile Include="Ctrl\API\IRulesFileCtrl.cs" />
-    <Compile Include="Ctrl\API\IFileType.cs" />
-    <Compile Include="Ctrl\API\IDoAction.cs" />
-    <Compile Include="Ctrl\API\IEntityCtrl.cs" />
-    <Compile Include="Ctrl\API\IDeptCtrl.cs" />
-    <Compile Include="Ctrl\API\IFlowCtrl.cs" />
-    <Compile Include="Ctrl\API\IFormCtrl.cs" />
-    <Compile Include="Ctrl\API\IModelCtrl.cs" />
-    <Compile Include="Ctrl\API\INodeCtrl.cs" />
-    <Compile Include="Ctrl\API\IOrgCtrl.cs" />
-    <Compile Include="Ctrl\API\IRoleCtrl.cs" />
-    <Compile Include="Ctrl\API\IStageCtrl.cs" />
-    <Compile Include="Ctrl\API\IStepCtrl.cs" />
-    <Compile Include="Ctrl\API\ITagCtrl.cs" />
     <Compile Include="Ctrl\API\ITest.cs" />
-    <Compile Include="Ctrl\API\IUserCtrl.cs" />
-    <Compile Include="Ctrl\API\IWorkCtrl.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

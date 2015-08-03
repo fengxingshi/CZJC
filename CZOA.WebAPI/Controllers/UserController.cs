@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Data;
 using System.Web.Http;
-using CZOA.Ctrl.API;
-using CZOA.DB;
+using CZJC.Ctrl.API;
+using CZJC.DB;
 using Newtonsoft.Json;
 
-namespace CZOA.WebAPI.Controllers
+namespace CZJC.WebAPI.Controllers
 {
     [RoutePrefix("api/user")] //设置默认前缀
     public class UserController : SNApiController

@@ -2,9 +2,9 @@
 using System.Data;
 using System.Dynamic;
 
-namespace CZOA.DB
+namespace CZJC.DB
 {
-    public partial class OAContext
+    public partial class JCContext
     {
         /// <summary>
         /// 执行sql返回DataTable

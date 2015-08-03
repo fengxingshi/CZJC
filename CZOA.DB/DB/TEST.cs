@@ -11,7 +11,7 @@ using System.ComponentModel.DataAnnotations;
 //using System.ComponentModel.DataAnnotations.Schema;
 using System.Data;
 
-namespace CZOA.DB
+namespace CZJC.DB
 {
     using System;
     using System.Collections.Generic;

@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace CZOA.Utility.Common
+namespace CZJC.Utility.Common
 {
 	public static class LogManager
 	{

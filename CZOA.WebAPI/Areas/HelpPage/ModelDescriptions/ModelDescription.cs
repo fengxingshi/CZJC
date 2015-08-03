@@ -1,6 +1,6 @@
 using System;
 
-namespace CZOA.WebAPI.Areas.HelpPage.ModelDescriptions
+namespace CZJC.WebAPI.Areas.HelpPage.ModelDescriptions
 {
     /// <summary>
     /// Describes a type model.
