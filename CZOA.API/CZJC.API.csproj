@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4BC5FC68-0CA6-47D8-B8AA-CB50637282DE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CZOA.API</RootNamespace>
+    <AssemblyName>CZOA.API</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ctrl\API\CtrlFactory.cs" />
+    <Compile Include="Ctrl\API\IRulesFileCtrl.cs" />
+    <Compile Include="Ctrl\API\IFileType.cs" />
+    <Compile Include="Ctrl\API\IDoAction.cs" />
+    <Compile Include="Ctrl\API\IEntityCtrl.cs" />
+    <Compile Include="Ctrl\API\IDeptCtrl.cs" />
+    <Compile Include="Ctrl\API\IFlowCtrl.cs" />
+    <Compile Include="Ctrl\API\IFormCtrl.cs" />
+    <Compile Include="Ctrl\API\IModelCtrl.cs" />
+    <Compile Include="Ctrl\API\INodeCtrl.cs" />
+    <Compile Include="Ctrl\API\IOrgCtrl.cs" />
+    <Compile Include="Ctrl\API\IRoleCtrl.cs" />
+    <Compile Include="Ctrl\API\IStageCtrl.cs" />
+    <Compile Include="Ctrl\API\IStepCtrl.cs" />
+    <Compile Include="Ctrl\API\ITagCtrl.cs" />
+    <Compile Include="Ctrl\API\ITest.cs" />
+    <Compile Include="Ctrl\API\IUserCtrl.cs" />
+    <Compile Include="Ctrl\API\IWorkCtrl.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CZOA.DB\CZJC.DB.csproj">
+      <Project>{fc3e1df4-7430-4887-9f54-f87421d80382}</Project>
+      <Name>CZJC.DB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CZOA.Utility\CZJC.Utility.csproj">
+      <Project>{899b9652-8920-475f-86f8-ccaf072c4d74}</Project>
+      <Name>CZJC.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

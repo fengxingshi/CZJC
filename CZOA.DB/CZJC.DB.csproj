@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FC3E1DF4-7430-4887-9F54-F87421D80382}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CZOA.DB</RootNamespace>
+    <AssemblyName>CZOA.DB</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ctrl\ActionModels.cs" />
+    <Compile Include="DB\C_RULES_FILE.cs" />
+    <Compile Include="DB\TEST.cs" />
+    <Compile Include="DB\C_FILE_TYPE.cs" />
+    <Compile Include="DB\T_ATTA.cs" />
+    <Compile Include="DB\T_ATTA_RECORD.cs" />
+    <Compile Include="DB\T_COMMENT.cs" />
+    <Compile Include="DB\T_DEPT.cs" />
+    <Compile Include="DB\T_ENTITY.cs" />
+    <Compile Include="DB\T_ENTITY_ITEM.cs" />
+    <Compile Include="DB\T_ENTITY_ITEM_SIGN.cs" />
+    <Compile Include="DB\T_FLOW.cs" />
+    <Compile Include="DB\T_FLOW_AUTH.cs" />
+    <Compile Include="DB\T_FLOW_TAG.cs" />
+    <Compile Include="DB\T_FORM.cs" />
+    <Compile Include="DB\T_MODEL.cs" />
+    <Compile Include="DB\T_MODEL_ITEM.cs" />
+    <Compile Include="DB\T_NODE.cs" />
+    <Compile Include="DB\T_NODE_DOMAIN.cs" />
+    <Compile Include="DB\T_NODE_TAG.cs" />
+    <Compile Include="DB\T_OBJECT_AUTH.cs" />
+    <Compile Include="DB\T_ORG.cs" />
+    <Compile Include="DB\T_ROLE.cs" />
+    <Compile Include="DB\T_SIGN.cs" />
+    <Compile Include="DB\T_STAGE.cs" />
+    <Compile Include="DB\T_STEP.cs" />
+    <Compile Include="DB\T_STEP_AUTH.cs" />
+    <Compile Include="DB\T_STEP_MODEL.cs" />
+    <Compile Include="DB\T_STEP_MODEL_ITEM.cs" />
+    <Compile Include="DB\T_STEP_TAG.cs" />
+    <Compile Include="DB\T_STEP_TO_NEXT.cs" />
+    <Compile Include="DB\T_TAG.cs" />
+    <Compile Include="DB\T_TAG_CATEGORY.cs" />
+    <Compile Include="DB\T_TAG_ITEM.cs" />
+    <Compile Include="DB\T_USER.cs" />
+    <Compile Include="DB\T_USER_DOMAIN.cs" />
+    <Compile Include="DB\T_WORK.cs" />
+    <Compile Include="DB\T_WORK_TAG.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
