@@ -13,5 +13,10 @@ namespace CZJC.Controllers
         {
             return View();
         }
+
+        public ActionResult Report()
+        {
+            return View();
+        }
     }
 }
