@@ -4,9 +4,13 @@
     ViewBag.Title = "Report";
 }
 
+<h2>旧OA <small>@@10.32.1.85 #HebbgzdhDb</small></h2>
+
+<div style="width:360px;text-align:center;display:inline-block"><p><canvas id="db1" height="360"></canvas></p><p>库连接总数：100</p></div>
+<div style="width:360px;text-align:center;display:inline-block"><p><canvas id="db2" height="360"></canvas></p><p>表空间大小：20G</p></div>
+<div style="width:360px;text-align:center;display:inline-block"><p><canvas id="db3" height="360"></canvas></p><p>日志大小：10G</p></div>
 
 <script src="~/Scripts/Chart.js"></script>
-
 <script>
 		var data1 = [
         {
@@ -54,9 +58,3 @@
 		    var c3 = new Chart(ctx3).Pie(data3);
 		}
 </script>
-
-<div style="width:400px;text-align:center;display:inline-block"><p><canvas id="db1" height="400"></canvas></p><p>库连接总数：100</p></div>
-<div style="width:400px;text-align:center;display:inline-block"><p><canvas id="db2" height="400"></canvas></p><p>表空间大小：20G</p></div>
-<div style="width:400px;text-align:center;display:inline-block"><p><canvas id="db3" height="400"></canvas></p><p>日志大小：10G</p></div>
-
-
