@@ -16,6 +16,9 @@ namespace CZJC.Controllers
 
         public ActionResult Report()
         {
+            ViewBag.总连接数 = "120";
+            ViewBag.已用连接 = 60;
+            ViewBag.可用连接 = 60;
             return View();
         }
     }

@@ -6,7 +6,7 @@
 
 <h2>旧OA <small>@@10.32.1.85 #HebbgzdhDb</small></h2>
 
-<div style="width:360px;text-align:center;display:inline-block"><p><canvas id="db1" height="360"></canvas></p><p>库连接总数：100</p></div>
+<div style="width:360px;text-align:center;display:inline-block"><p><canvas id="db1" height="360"></canvas></p><p>库连接总数：@ViewBag.总连接数</p></div>
 <div style="width:360px;text-align:center;display:inline-block"><p><canvas id="db2" height="360"></canvas></p><p>表空间大小：20G</p></div>
 <div style="width:360px;text-align:center;display:inline-block"><p><canvas id="db3" height="360"></canvas></p><p>日志大小：10G</p></div>
 
@@ -14,12 +14,12 @@
 <script>
 		var data1 = [
         {
-            value: 30,
+            value: @ViewBag.已用连接,
             color: "#F38630",
             label: "已用连接数"
         },
         {
-            value: 70,
+            value: @ViewBag.可用连接,
             color: "#E0E4CC",
             label: "可用连接数"
         }
@@ -48,6 +48,7 @@
                 label: "可用日志空间"
             }
 		]
+
 		window.onload = function () {
 		    var ctx1 = document.getElementById("db1").getContext("2d")
 		    var ctx2 = document.getElementById("db2").getContext("2d")
